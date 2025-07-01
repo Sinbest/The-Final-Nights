@@ -1722,14 +1722,6 @@
 	},
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/interior/millennium_tower)
-"atA" = (
-/obj/structure/chair/wood/wings{
-	dir = 8
-	},
-/obj/item/chair/wood/wings,
-/obj/item/chair/wood/wings,
-/turf/open/floor/plating/parquetry,
-/area/vtm/interior/theatre)
 "atB" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light/blacklight{
@@ -23061,11 +23053,6 @@
 /obj/structure/extinguisher_cabinet{
 	dir = 8
 	},
-/obj/structure/chair/wood/wings{
-	dir = 8
-	},
-/obj/item/chair/wood/wings,
-/obj/item/chair/wood/wings,
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/theatre)
 "fty" = (
@@ -32189,6 +32176,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/chair/wood/wings{
+	dir = 1
+	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/interior/theatre)
 "hBM" = (
@@ -32572,6 +32562,11 @@
 /obj/structure/dresser,
 /obj/item/storage/secure/briefcase{
 	pixel_y = -10
+	},
+/obj/machinery/light/prince{
+	pixel_y = 32;
+	light_power = 0.45;
+	name = "dim light fixture"
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -45123,15 +45118,6 @@
 	},
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/endron_facility/restricted)
-"kIs" = (
-/obj/machinery/light/prince{
-	light_power = 0.45;
-	name = "dim light fixture";
-	dir = 1;
-	pixel_y = -7
-	},
-/turf/open/floor/carpet,
-/area/vtm/interior/millennium_tower/ventrue)
 "kIv" = (
 /obj/structure/railing{
 	dir = 8
@@ -48021,15 +48007,10 @@
 /turf/open/floor/plating/toilet,
 /area/vtm/hotel)
 "lus" = (
-/obj/structure/bed,
-/obj/item/bedsheet,
+/obj/structure/closet/crate/coffin,
 /obj/structure/curtain/bounty{
 	icon_state = "bounty-closed";
 	open = 0
-	},
-/obj/machinery/button/curtain{
-	id = 29;
-	pixel_y = 25
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -68031,11 +68012,6 @@
 /obj/effect/landmark/npcactivity,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/ghetto/old)
-"pWG" = (
-/obj/effect/landmark/npcability,
-/obj/effect/decal/bordur,
-/turf/open/floor/plating/sidewalk/rich,
-/area/vtm/park)
 "pWN" = (
 /obj/item/toy/cards/deck,
 /obj/structure/table/wood/fancy/black,
@@ -79749,11 +79725,11 @@
 /obj/structure/window/reinforced/spawner/north,
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/west,
-/obj/item/clothing/accessory/medal/silver/valor{
-	pixel_x = 5
-	},
 /obj/item/clothing/accessory/medal/gold/heroism{
 	pixel_x = -3
+	},
+/obj/item/clothing/accessory/medal/silver/valor{
+	pixel_x = 5
 	},
 /turf/open/floor/plating/parquetry/rich,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -84415,6 +84391,9 @@
 /obj/structure/table/wood,
 /obj/item/police_radio{
 	pixel_y = 10
+	},
+/obj/machinery/button/curtain{
+	id = 29
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -192757,7 +192736,7 @@ fGm
 fGm
 fGm
 fGm
-pWG
+xIv
 vYs
 pdi
 jMv
@@ -203789,7 +203768,7 @@ ppW
 ppW
 ppW
 ppW
-ppW
+eQk
 bcr
 gcj
 gcj
@@ -204046,7 +204025,7 @@ eQk
 gBs
 gUD
 ppW
-ppW
+eQk
 bcr
 gcj
 gcj
@@ -204303,7 +204282,7 @@ ppW
 ppW
 ppW
 ppW
-ppW
+eQk
 bcr
 gcj
 gcj
@@ -205073,7 +205052,7 @@ bTM
 vop
 ppW
 ppW
-atA
+ppW
 ftr
 bcr
 gcj
@@ -260828,7 +260807,7 @@ ntq
 ntq
 ntq
 ntq
-jQM
+iNI
 hzq
 hzq
 vLx
@@ -261085,9 +261064,9 @@ ntq
 ntq
 ntq
 ntq
-jQM
+iNI
 hFS
-kIs
+upf
 iNI
 dEW
 hzq
