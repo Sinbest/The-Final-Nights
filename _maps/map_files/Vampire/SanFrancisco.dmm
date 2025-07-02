@@ -30401,7 +30401,10 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/ghetto)
 "hdi" = (
-/obj/structure/table/abductor,
+/obj/structure/table/abductor{
+	name = "elegant table";
+	desc = "An extremely fancy table"
+	},
 /obj/machinery/button/curtain{
 	id = 2004
 	},
@@ -32566,7 +32569,8 @@
 /obj/machinery/light/prince{
 	pixel_y = 32;
 	light_power = 0.45;
-	name = "dim light fixture"
+	name = "dim light fixture";
+	pixel_x = -16
 	},
 /turf/open/floor/carpet,
 /area/vtm/interior/millennium_tower/ventrue)
@@ -51805,7 +51809,10 @@
 	fire_controled = 1
 	})
 "mpz" = (
-/obj/structure/table/abductor,
+/obj/structure/table/abductor{
+	name = "elegant table";
+	desc = "An extremely fancy table"
+	},
 /turf/open/floor/carpet/royalblue,
 /area/vtm/interior/millennium_tower/ventrue)
 "mpD" = (
@@ -60146,7 +60153,10 @@
 /turf/open/floor/plating/vampcarpet,
 /area/vtm/interior/techshop)
 "ojk" = (
-/obj/structure/table/abductor,
+/obj/structure/table/abductor{
+	name = "elegant table";
+	desc = "An extremely fancy table"
+	},
 /obj/item/paper_bin{
 	pixel_y = 6
 	},
@@ -63449,6 +63459,10 @@
 /obj/structure/closet/cardboard,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/setite)
+"oUi" = (
+/obj/structure/table/glass,
+/turf/open/floor/plating/parquetry,
+/area/vtm/interior/millennium_tower/ventrue)
 "oUn" = (
 /obj/structure/fluff/hedge,
 /obj/structure/railing{
@@ -79726,7 +79740,8 @@
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/west,
 /obj/item/clothing/accessory/medal/gold/heroism{
-	pixel_x = -3
+	pixel_x = -3;
+	desc = "A gold medal rewarded for exceptional heroism in combat."
 	},
 /obj/item/clothing/accessory/medal/silver/valor{
 	pixel_x = 5
@@ -265188,7 +265203,7 @@ ibJ
 fWY
 fWY
 hzq
-qYL
+oUi
 kha
 qIW
 fRj
